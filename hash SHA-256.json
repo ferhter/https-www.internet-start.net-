@@ -1,0 +1,12 @@
+>>> from hashlib import sha256
+>>> data = b"Un poco de informacion de longitud variada"
+>>> sha256(data).hexdigest()
+'976cb22d161e5bd6225b543c04743015daa8ee4fcbb01a5c489e33d01b2f951f'
+>>> # No importa cuántas veces lo ejecutes, siempre retorna la misma cadena de 256 caracteres.
+>>> sha256(data).hexdigest()
+'976cb22d161e5bd6225b543c04743015daa8ee4fcbb01a5c489e33d01b2f951f'
+>>> # Se agrega un carácter al final.
+>>> data = b"Un poco de informacion de longitud variada2"
+>>> sha256(data).hexdigest()
+'d3b1df2ef471d726dc5521200338f5626ddbcccf8463c33709ab9ea04f18c7b9'
+# ¡Nótese cómo el hash resultante cambió completamente!
