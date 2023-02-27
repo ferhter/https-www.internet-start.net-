@@ -1,0 +1,10 @@
+from hashlib import sha256
+import json
+ 
+def compute_hash(block):
+    """
+    Convierte el bloque en una cadena JSON y luego retorna el hash
+    del mismo.
+    """
+    block_string = json.dumps(block.__dict__, sort_keys=True)
+    return sha256(block_string.encode()).hexdigest()
