@@ -1,0 +1,11 @@
+class Block:
+    def __init__(self, index, transactions, timestamp):
+        """
+        Constructor de la clase `Block`.
+        :param index: ID único del bloque.
+        :param transactions: Lista de transacciones.
+        :param timestamp: Momento en que el bloque fue generado.
+        """
+        self.index = index 
+        self.transactions = transactions 
+        self.timestamp = timestamp
