@@ -1,0 +1,21 @@
+class Blockchain:
+    # Dificultad del algoritmo de prueba de trabajo.
+    difficulty = 2
+ 
+    """
+    Código anterior...
+    """
+ 
+    def proof_of_work(self, block):
+        """
+        Función que intenta distintos valores de nonce hasta obtener
+        un hash que satisfaga nuestro criterio de dificultad.
+        """
+        block.nonce = 0
+ 
+        computed_hash = block.compute_hash()
+        while not computed_hash.startswith('0' * Blockchain.difficulty):
+            block.nonce += 1
+            computed_hash = block.compute_hash()
+ 
+        return computed_hash
