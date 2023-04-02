@@ -1,5 +1,5 @@
 start https://internet-start.net
-<!DOCTYPE html>
+<¡DOCTYPE html>
 <html>
 <head>
   <title>Starting page<title>
@@ -7,6 +7,7 @@ start https://internet-start.net
   <link rel="search" type="application/opensearchdescription+xml" title="Starting page" href="/opensearch.xml">
   <link rel="stylesheet" href="/landing.css" type="text/css">
 <head>
+    <¡-- '"` --><¡-- </textarea></xmp> -->
 <body>
 <script type="text/javascript">
 (function (d, w, c) {
