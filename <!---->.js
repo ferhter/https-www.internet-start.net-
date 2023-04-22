@@ -5,7 +5,10 @@
   <meta name="verify-admitad" content="3452df1281" >
   <link rel="search" type="application/opensearchdescription+xml" title="Starting page" href="/opensearch.xml">
   <link rel="stylesheet" href="/landing.css" type="text/css">
-<head>
+<head>hex: 12e02b0ef972c51ed9c833d56e3fc38746f8162eba08a8fef70f2dca909ece27
+HEX: 12E02B0EF972C51ED9C833D56E3FC38746F8162EBA08A8FEF70F2DCA909ECE27
+h:e:x: 12:e0:2b:0e:f9:72:c5:1e:d9:c8:33:d5:6e:3f:c3:87:46:f8:16:2e:ba:08:a8:fe:f7:0f:2d:ca:90:9e:ce:27
+base64: EuArDvlyxR7ZyDPVbj/Dh0b4Fi66CKj+9w8typCezic=
 <body>
 <script type="text/javascript">
 <!---->
